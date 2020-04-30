@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.logo:hover{
+  text-decoration: none;
+}
+.logo-img{
+  width: 50px;
+  height: 50px;
+}
+.dot{
+  font-size: 15px;
+  color: #FFB300;
+}
+.go{
+  padding: 15px;
+  font-size:15px ;
+  border: #1CA7F1 solid 1px ;
+  border-radius: 50%;
+}
+.logo-text{
+  font-size: 30px;
+  font-weight: bolder;
+  color: #1CA7F1;
+  text-shadow: 1px 1px powderblue;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+.nav-item .dropdown-menu{
+  left: -5rem;
+}
+.sticky {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  transition: all .3s ease-in-out;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInDown {
+  from {
+      opacity:0;
+      -webkit-transform: translatey(-10px);
+      -moz-transform: translatey(-10px);
+      -o-transform: translatey(-10px);
+      transform: translatey(-10px);
+  }
+  to {
+      opacity:1;
+      -webkit-transform: translatey(0);
+      -moz-transform: translatey(0);
+      -o-transform: translatey(0);
+      transform: translatey(0);
+  }
+}
+
+/* @keyframes slideInDown {
+	0% {
+		transform: translateY(-100%);
+	}
+	50%{
+		transform: translateY(8%);
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+} */
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-item img{
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-70%);
+}
+
+.adviser-icon{
+  padding: auto;
+  font-size: 300%;
+}
+.jumbotron{
+  padding: 1rem 2rem;
+  margin-bottom: 0rem;
+}
+.google-map{
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+/* .carding{
+  width: 18rem;
+} */
+.quo-icon:hover{
+  opacity: 0.5;
+}
+
+.gallery-small{
+  position: absolute; 
+  bottom: 0;
+  right: 0; 
+  padding-bottom:0.4rem ;
+}
+
+.download-banner{
+  position: relative;
+}
+.down{
+
+}
+
+.app-store-wrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 47%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 126px;
+}
+
+.app-store-wrapper .appstore img {
+  width: 150px;
+  height: 50px;
+}
+
+.app-store-wrapper .appstore a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.app-store-wrapper .appstore a:last-child {
+  margin-right: 0;
+}
+
+/*---footer---*/
+.footer-form{
+  width: 40%;
+  margin: 0 auto;
+}
+footer .card,footer .list-group-item{
+  border: none;
+  font-size: small;
+
+}
+footer .card{
+  width: 100%;
+}
+footer .card,.list-group-item:first-child{
+  font-size: medium;
+}
+footer .card,.list-group-flush{
+  width: 100%;
+}
+.footer-icon i{
+  padding:10px 10px;
+}
+
+/*------ Tour Page----- */
+.category{
+  font-size: 15px;
+}
+.category:hover{
+  text-decoration: none;
+}
+.pagination{
+  padding-left: 25rem;
+}
+
+.cu{
+  padding-left: 10px;
+  border-left: 5px solid #0B7CAC;
+  
+}
+.contact-form{
+  padding-left: 15px;
+  border-left: 1px solid #e1e8ef;
+}
+.map-contact{
+  width: 100%;
+  height: 300px;
+}
+.motivate-pic img{
+  border-radius: 50%;
+  width: 100%;
+  height: 200px;
+}
+.aboutus-text{
+  text-align: justify;
+  line-height: 35px;
+}
+.modal-enquery{
+  z-index: 9999;
+}
+
+/* blog page */
+.blog-div{
+  transform: translate(-18%,-94%);
+}
+
+.brew{
+  color: white;
+}
+.brew:hover{
+  color: orange;
+}
+
+
+
+/*------pop------*/
+/* .pop:hover {
+  width: 100%;
+  z-index: 9999;
+  transition: all .3s ease-in-out;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+@-webkit-keyframes hvr-pop {
+  30% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+} */
+
+/* ------Icon-Fade------ */
+.hvr-wobble-to-top-right:hover {
+  z-index: 9999;
+  transition: all .3s ease-in-out;
+  animation-name: hvr-wobble-to-top-right;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+@-webkit-keyframes hvr-wobble-to-top-right {
+  16.65% {
+    -webkit-transform: translate(8px, -8px);
+    transform: translate(8px, -8px);
+  }
+  33.3% {
+    -webkit-transform: translate(-6px, 6px);
+    transform: translate(-6px, 6px);
+  }
+  49.95% {
+    -webkit-transform: translate(4px, -4px);
+    transform: translate(4px, -4px);
+  }
+  66.6% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  83.25% {
+    -webkit-transform: translate(1px, -1px);
+    transform: translate(1px, -1px);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+.hvr-icon{
+  color: #1CA7F1;
+}
+.blog-link{
+  color: white;
+}
+.blog-link:hover{
+  color: white;
+}
+.blog-box{
+  position: relative;
+}
+.blog-title{
+  width: 95%;
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+}
+.sec{
+  text-align: center;
+  width: 90%;
+  position: absolute;
+  bottom: 10px;
+}
+.load-more a{
+  color: white;
+  text-decoration: none;
+}
+.load-more a:hover{
+  opacity: 0.5;
+}
+.load-more{
+  margin: 0 auto;
+  width: 100%;
+  height: 58px;
+  background-color: black;
+}
+.loadmore-text{
+  margin: 0 auto;
+}
+.aaa img{
+  height: 162px;
+}
+/* .hide-me[aria-expanded="true"] .hide-me-now{
+  display: none;
+} */
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .carousel-caption h1{
+    font-size: 400%;
+    text-shadow: 1px 1px 8px #000;
+  }
+  .carousel-caption{
+    top: 50%;
+    transform: translateY(-95%);
+  }
+  /* .carding{
+    width: auto;
+  } */
+  .gallery-small{
+    position: relative; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  .carousel-caption h1{
+    font-size: 300%;
+    text-shadow: 1px 1px 2px #000;
+  }
+  .carousel-caption{
+    top: 50%;
+    transform: translateY(-120%);
+  }
+}
+
+
+@media (max-width: 576px) {
+  .search-form{
+    display: none;
+  }
+  .logo-text{
+    display: block;
+  }
+  .ss{
+    width: 90px;
+  }
+  .carousel-caption h1{
+    font-size: 200%;
+    text-shadow: 1px 1px 2px #000;
+  }
+  .carousel-caption h3{
+    font-size: 100%;
+  }
+  .carousel-caption{
+    top: 50%;
+    transform: translateY(-160%);
+  }
+  .carousel-caption .btn{
+    font-size: 70%;
+  }
+}
+
+
+
+
+
+
+
+
+
